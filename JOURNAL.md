@@ -1,3 +1,10 @@
+---
+title: "Raspberry Pi Power Hub"
+author: "tobycm"
+description: "a usb c power hub to power all of my raspberry pis (and other usb c devices!)"
+created_at: "2025-06-25"
+---
+
 # Raspberry Pi Power Hub
 
 ## Jun 25, 2025 | 12:00 -  | Init
