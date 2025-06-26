@@ -1,5 +1,56 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 36.83 85.09)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c01414cb-6643-43a4-b4a5-f11e07d2900d")
+		(property "Sheetname" "rp2040"
+			(at 36.83 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040.kicad_sch"
+			(at 36.83 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
