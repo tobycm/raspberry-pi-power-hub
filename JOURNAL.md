@@ -32,3 +32,7 @@ time to research for parts on lcsc, and wire them up in kicad
 ## 21:00 - 22:50 | copied rp2040 wiring from previous board
 
 with the new diode and no more latching button xd.
+
+lots of time spent on finding parts on LCSC
+
+## Jun 27, 2025 | 15:20 - 16:00 | wiring up the power-in IC

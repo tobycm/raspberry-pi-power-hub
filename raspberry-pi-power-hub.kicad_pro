@@ -616,6 +616,10 @@
     [
       "c01414cb-6643-43a4-b4a5-f11e07d2900d",
       "rp2040"
+    ],
+    [
+      "2f555ee9-9c04-4335-99e6-65577b3bf6f3",
+      "usb power in"
     ]
   ],
   "text_variables": {}
