@@ -35,4 +35,25 @@ with the new diode and no more latching button xd.
 
 lots of time spent on finding parts on LCSC
 
-## Jun 27, 2025 | 15:20 - 16:00 | wiring up the power-in IC
+## Jun 29, 2025 | 17:15 - 21:45 | wiring up cypd3177 and fix up rp2040
+
+the datasheet reference schematic is the best place to start, as they have values that the manufacturer tested and recommends.
+
+![datasheet reference schematic](assets/3177_ref_sch.png)
+
+after some questions and answers with Google Gemini, i learned that:
+
+- the 2 mosfets facing each other are for reverse current protection, if this device is disconnected from the power source, it will not allow current to flow back into the power source, causing undefined behavior.
+- safe_pwr always provides 5V, so that is nice to power microcontrollers and other devices that need 5V always on.
+- table 2, 3, and 4 in the datasheet helps with choosing resistor values to set the desired voltage range and min current limit.
+
+after a bit more chatting with Google Gemini:
+- trying to optimize for efficiency: we went with a better buck converter than the XXL1509-5.0 with 83% for a Silergy brand buck converter, which has ~92% efficiency. a lot better.
+
+because the cypd3175 can support an additional 5V usb output, i will supply 2 type a port with the Silergy 6A 5V buck converter
+
+too much shopping, i should start wiring this up in kicad 💀
+
+![peak schematic](assets/3v3_buck_reg.png)
+
+literally peak
