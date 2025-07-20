@@ -48,6 +48,7 @@ after some questions and answers with Google Gemini, i learned that:
 - table 2, 3, and 4 in the datasheet helps with choosing resistor values to set the desired voltage range and min current limit.
 
 after a bit more chatting with Google Gemini:
+
 - trying to optimize for efficiency: we went with a better buck converter than the XXL1509-5.0 with 83% for a Silergy brand buck converter, which has ~92% efficiency. a lot better.
 
 because the cypd3175 can support an additional 5V usb output, i will supply 2 type a port with the Silergy 6A 5V buck converter
@@ -57,3 +58,21 @@ too much shopping, i should start wiring this up in kicad 💀
 ![peak schematic](assets/3v3_buck_reg.png)
 
 literally peak
+
+## Jul 19, 2025 | 16:00 - 20:00 | finishing wiring up cypd3177
+
+small life update: i got a new job :D downside is i have less time to work on this project :C
+
+apparently lots of MOSFETs have max Vgs of 20V, so i had to find a zener diode to clamp the gate voltage to 18V, so that the MOSFETs don't get damaged.
+
+![requesting 5V min and 20V max](assets/voltage_req.png)
+
+to request 5V min and 20V max
+
+![fault led](assets/fault.png)
+
+added a fault indicator LED :D
+
+![current request setup](assets/current_req.png)
+
+to request at least 1A of current :D
