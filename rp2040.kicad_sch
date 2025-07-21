@@ -208,6 +208,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -331,158 +438,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2725,382 +2680,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:GT-USB-7010AN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GT-USB-7010AN"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:USB-SMD_GT-USB-7010AN"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C963370"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GT-USB-7010AN_0_1"
-				(rectangle
-					(start -8.89 11.43)
-					(end 8.89 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -7.62 10.16)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 3.81 0)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 1.27 0)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 8.89 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 3.81 180)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 1.27 180)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -1.27 180)
-					(length 2.54)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -3.81 180)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -6.35 180)
-					(length 2.54)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -8.89 180)
-					(length 2.54)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:TS24CA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3717,16 +3296,6 @@
 		)
 		(uuid "d2819e0b-e82a-43c7-8d2c-69ac7eabe1e0")
 	)
-	(text "same diode"
-		(exclude_from_sim no)
-		(at 31.242 169.926 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e9601516-3f1f-4eed-9242-6e51dc41b1ed")
-	)
 	(junction
 		(at 22.86 151.13)
 		(diameter 0)
@@ -3780,12 +3349,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c9042a1-9684-4693-a853-0e27d507291c")
-	)
-	(junction
-		(at 38.1 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ed3415f-56e1-4f44-a3fe-77700ee60a4f")
 	)
 	(junction
 		(at 194.31 21.59)
@@ -3914,28 +3477,10 @@
 		(uuid "cfb10426-17f5-43f5-8ef6-b1a93331fab2")
 	)
 	(junction
-		(at 138.43 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d85743c7-9e03-4716-9b30-bec44b0a24f2")
-	)
-	(junction
-		(at 138.43 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8da4afe-424b-43dc-bff7-07b9721c4bfe")
-	)
-	(junction
 		(at 171.45 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da29f6d2-655a-42a4-b1ed-6fdc4bfb919f")
-	)
-	(junction
-		(at 243.84 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0bc5584-ff0c-4150-b9f2-1000eb775aac")
 	)
 	(junction
 		(at 209.55 58.42)
@@ -3948,12 +3493,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6133590-66d0-43b7-ae27-a3115578e3f4")
-	)
-	(junction
-		(at 157.48 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed58e51d-a83c-4748-bf3c-128907a219ba")
 	)
 	(junction
 		(at 182.88 26.67)
@@ -4086,16 +3625,6 @@
 			(type default)
 		)
 		(uuid "1b36d083-b3d6-44e3-bfcd-8a7618093e6a")
-	)
-	(wire
-		(pts
-			(xy 138.43 73.66) (xy 138.43 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d728161-b04b-4bff-835f-4c241601cd9e")
 	)
 	(wire
 		(pts
@@ -4259,16 +3788,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 176.53) (xy 38.1 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "434671be-d790-46fd-a7f1-c3a2d1b869c5")
-	)
-	(wire
-		(pts
 			(xy 234.95 116.84) (xy 242.57 116.84)
 		)
 		(stroke
@@ -4329,26 +3848,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 68.58) (xy 157.48 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541ea886-e5ec-4a00-9d24-487465ed1e40")
-	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 127 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5421645e-8b27-467e-8600-b51b834649c2")
-	)
-	(wire
-		(pts
 			(xy 171.45 21.59) (xy 182.88 21.59)
 		)
 		(stroke
@@ -4379,16 +3878,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 138.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6b6484-96a0-499e-8546-8db993c73a37")
-	)
-	(wire
-		(pts
 			(xy 58.42 77.47) (xy 58.42 82.55)
 		)
 		(stroke
@@ -4416,16 +3905,6 @@
 			(type default)
 		)
 		(uuid "69a3be1c-6056-4dfd-8ac5-f871dd4a7389")
-	)
-	(wire
-		(pts
-			(xy 157.48 66.04) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c47712-75be-4c00-8898-a6f69bcf94bc")
 	)
 	(wire
 		(pts
@@ -4509,16 +3988,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 91.44) (xy 240.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d588da-16eb-49ae-8802-02c1e5a1da15")
-	)
-	(wire
-		(pts
 			(xy 71.12 39.37) (xy 59.69 39.37)
 		)
 		(stroke
@@ -4589,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 73.66) (xy 157.48 73.66)
+			(xy 151.13 73.66) (xy 157.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4689,16 +4158,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 91.44) (xy 240.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b5fb19-4458-408b-aee9-d12f412ae2f3")
-	)
-	(wire
-		(pts
 			(xy 45.72 181.61) (xy 48.26 181.61)
 		)
 		(stroke
@@ -4706,16 +4165,6 @@
 			(type default)
 		)
 		(uuid "a75afcce-3879-4950-8916-0486eede69f2")
-	)
-	(wire
-		(pts
-			(xy 138.43 68.58) (xy 146.05 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a78b0b8b-19af-4d49-963b-e1d0d3a607e3")
 	)
 	(wire
 		(pts
@@ -4756,16 +4205,6 @@
 			(type default)
 		)
 		(uuid "ae173fce-ded4-488b-b78c-e140115eb2e7")
-	)
-	(wire
-		(pts
-			(xy 157.48 68.58) (xy 157.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae58a2f6-1fd8-4c1b-b7e8-21d467eda625")
 	)
 	(wire
 		(pts
@@ -4899,16 +4338,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 60.96) (xy 149.86 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58cd3c4-cf1a-4a60-b8f2-d41e565c878e")
-	)
-	(wire
-		(pts
 			(xy 252.73 121.92) (xy 252.73 124.46)
 		)
 		(stroke
@@ -4916,26 +4345,6 @@
 			(type default)
 		)
 		(uuid "c7e68d98-5279-4ea8-b2b0-1d1fdf31f4eb")
-	)
-	(wire
-		(pts
-			(xy 157.48 67.31) (xy 157.48 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c852c5e8-8e7f-4612-beae-905b14bc5795")
-	)
-	(wire
-		(pts
-			(xy 243.84 91.44) (xy 243.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb46d62b-dc68-4871-8547-c451a3235b39")
 	)
 	(wire
 		(pts
@@ -4999,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 157.48 76.2)
+			(xy 151.13 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5016,16 +4425,6 @@
 			(type default)
 		)
 		(uuid "df28e052-3823-4e62-b653-9d110d4c2e2e")
-	)
-	(wire
-		(pts
-			(xy 33.02 179.07) (xy 38.1 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01418c1-3587-4eca-a85e-e021939de545")
 	)
 	(wire
 		(pts
@@ -5079,26 +4478,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 91.44) (xy 256.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab8d44d-2ba1-441a-a1da-5d8502ce9d20")
-	)
-	(wire
-		(pts
-			(xy 138.43 76.2) (xy 138.43 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4c414c-78ec-43e7-bed1-8706698a9fee")
-	)
-	(wire
-		(pts
 			(xy 252.73 119.38) (xy 252.73 121.92)
 		)
 		(stroke
@@ -5106,16 +4485,6 @@
 			(type default)
 		)
 		(uuid "ec6b4695-b665-431a-8505-2f120eda6c9d")
-	)
-	(wire
-		(pts
-			(xy 240.03 104.14) (xy 227.33 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed26c2d6-0735-4de6-b410-4b288d3dd4bd")
 	)
 	(wire
 		(pts
@@ -5189,16 +4558,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 91.44) (xy 243.84 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f11c6d2e-13c0-49e8-8a56-79c6fa4d657b")
-	)
-	(wire
-		(pts
 			(xy 93.98 181.61) (xy 93.98 184.15)
 		)
 		(stroke
@@ -5236,16 +4595,6 @@
 			(type default)
 		)
 		(uuid "f1cd8306-a0c5-486c-b348-37502614321d")
-	)
-	(wire
-		(pts
-			(xy 13.97 179.07) (xy 27.94 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f273487b-5df8-42a3-a910-0ab700793fa4")
 	)
 	(wire
 		(pts
@@ -5388,7 +4737,7 @@
 		(uuid "ffcc8626-484b-4aa0-aeba-3f043bf6a88b")
 	)
 	(image
-		(at 52.07 172.72)
+		(at 39.37 172.72)
 		(scale 0.234373)
 		(uuid "26ce5541-b314-4078-99c7-2952b0e7d9bf")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -6887,26 +6236,6 @@
 		)
 		(uuid "279b361f-3808-464a-a473-6261aaae36af")
 	)
-	(label "USB_VBUS"
-		(at 149.86 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3953b21a-3656-4893-bd79-bff925d3ab44")
-	)
-	(label "USB_R_D-"
-		(at 140.97 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41aa06a5-59c5-4313-a459-ea1b6f4140d8")
-	)
 	(label "XIN"
 		(at 16.51 82.55 0)
 		(effects
@@ -6926,16 +6255,6 @@
 			(justify left bottom)
 		)
 		(uuid "51c16031-bcce-46d3-b9dc-1a045f05a632")
-	)
-	(label "USB_R_D+"
-		(at 140.97 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6017e6cc-97a1-4258-a9ab-805802c88bb2")
 	)
 	(label "QSPI_SCLK"
 		(at 166.37 99.06 0)
@@ -6987,7 +6306,7 @@
 		)
 		(uuid "88e2ad0e-bec2-4b00-9a5a-0bc7cb38bb0b")
 	)
-	(label "USB_D+"
+	(label "LUSB_D+"
 		(at 165.1 73.66 0)
 		(effects
 			(font
@@ -7007,7 +6326,7 @@
 		)
 		(uuid "b517897c-12ee-491a-b9dd-71025568fa00")
 	)
-	(label "USB_D-"
+	(label "LUSB_D-"
 		(at 165.1 76.2 0)
 		(effects
 			(font
@@ -7036,16 +6355,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6977a82-05da-4c64-b740-be328f580c60")
-	)
-	(label "USB_VBUS"
-		(at 13.97 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d04a0210-81ff-4c4b-894a-e704c7100841")
 	)
 	(label "+1.1V"
 		(at 191.77 58.42 0)
@@ -7117,6 +6426,28 @@
 		)
 		(uuid "f9a82921-eb17-4596-8908-1aa4c53cec4f")
 	)
+	(global_label "GPIO29"
+		(shape bidirectional)
+		(at 259.08 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ab7a34c-8aa3-4a7b-bdf9-bf41a10ef708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.4563 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO13"
 		(shape bidirectional)
 		(at 227.33 99.06 0)
@@ -7135,6 +6466,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO1"
+		(shape bidirectional)
+		(at 259.08 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e94c570-7203-4d4e-b093-236fdcd7ad4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.8223 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape bidirectional)
+		(at 259.08 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21ea2622-fa43-48a0-82a0-37dc4e21b252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.826 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7183,24 +6558,24 @@
 			)
 		)
 	)
-	(global_label "Pixels"
-		(shape input)
-		(at 256.54 91.44 0)
+	(global_label "GPIO9"
+		(shape bidirectional)
+		(at 259.08 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "42553b45-e176-4e73-87d6-5cd109a4ec37")
+		(uuid "43e88103-591c-4c41-8a16-493d9dd6fa61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.138 91.44 0)
+			(at 249.6039 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7271,6 +6646,28 @@
 			)
 		)
 	)
+	(global_label "GPIO10"
+		(shape bidirectional)
+		(at 259.08 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "529ca023-7f35-4f52-b7e7-cf5b2103b91b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.5592 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO7"
 		(shape bidirectional)
 		(at 227.33 83.82 0)
@@ -7289,6 +6686,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO6"
+		(shape bidirectional)
+		(at 259.08 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57c4a324-26a3-4b71-aab7-2e4541cf859c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4253 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO3"
+		(shape bidirectional)
+		(at 259.08 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ebcefc1-ab8e-482d-ad43-5876ca7b7824")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4476 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7337,6 +6778,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 262.89 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6efa29ad-55b2-4273-bc99-6984c634fc40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.5257 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO27"
 		(shape bidirectional)
 		(at 227.33 137.16 0)
@@ -7355,6 +6818,72 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO7"
+		(shape bidirectional)
+		(at 259.08 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "812910b2-7e7d-4857-ac6d-dd60a7e82d3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6424 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 262.89 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8240f81a-e641-402e-b844-47a045d8f80b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.2006 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape bidirectional)
+		(at 259.08 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8647c4df-21cf-4259-9009-c94b455c7a98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3707 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7425,6 +6954,72 @@
 			)
 		)
 	)
+	(global_label "GPIO26"
+		(shape bidirectional)
+		(at 259.08 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b7f1796-90a8-4bc7-a42c-1d4a4648ca49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.3632 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO8"
+		(shape bidirectional)
+		(at 259.08 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f560520-4735-4150-bb43-3fb05e1e10cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.5605 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO12"
+		(shape bidirectional)
+		(at 259.08 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a169dfeb-83fd-4230-baea-91f88570e275")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.5667 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO8"
 		(shape bidirectional)
 		(at 227.33 86.36 0)
@@ -7491,6 +7086,138 @@
 			)
 		)
 	)
+	(global_label "GPIO15"
+		(shape bidirectional)
+		(at 259.08 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b605f906-b383-44f3-9f5c-ec36fe99e412")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8235 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO11"
+		(shape bidirectional)
+		(at 259.08 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7549dcb-9f83-4473-810c-80a43e4127ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.2007 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO27"
+		(shape bidirectional)
+		(at 259.08 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c098f4f0-38c3-455b-9bcd-71b4817e3f72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.5046 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 151.13 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbbfecb2-30ea-460d-baa5-c201c1dcfa5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.2354 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO28"
+		(shape bidirectional)
+		(at 259.08 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d325e07d-bde4-4209-a49d-9dd0632275ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.4376 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO15"
+		(shape bidirectional)
+		(at 227.33 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3eb39ae-597d-40be-9b4d-a16519390944")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.5865 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO5"
 		(shape bidirectional)
 		(at 227.33 78.74 0)
@@ -7535,6 +7262,28 @@
 			)
 		)
 	)
+	(global_label "GPIO18"
+		(shape bidirectional)
+		(at 259.08 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7cc2ab3-7193-4ffe-9b9e-afcbdbf6943d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8235 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO9"
 		(shape bidirectional)
 		(at 227.33 88.9 0)
@@ -7557,6 +7306,72 @@
 			)
 		)
 	)
+	(global_label "GPIO4"
+		(shape bidirectional)
+		(at 259.08 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eab438d0-e2bf-443e-886c-4bd8ea6b59a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4451 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape bidirectional)
+		(at 259.08 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb3f93dd-8a63-407e-930c-58a095897362")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4302 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 151.13 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebdc15a0-b0fa-4f95-b687-124debed7893")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.2354 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO3"
 		(shape bidirectional)
 		(at 227.33 73.66 0)
@@ -7570,6 +7385,72 @@
 		(uuid "ed31e7cf-e0fc-4ebf-8b4e-df825bab7893")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.9624 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO5"
+		(shape bidirectional)
+		(at 259.08 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eded18b0-5d32-4a3f-85ea-c987cf7c4213")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.5171 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO14"
+		(shape bidirectional)
+		(at 259.08 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0c8ce9f-6085-404f-8833-1053ebf34bc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8235 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO18"
+		(shape bidirectional)
+		(at 227.33 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f20c1586-ec8e-4d62-9fd3-5641e155b768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.5865 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,6 +7483,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "083e0f74-63eb-4b68-8cbd-f4691e0c1ab6")
+		(property "Reference" "TP8"
+			(at 263.652 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94a6c9bf-29aa-4f4e-a2a9-4a01936a130e")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 58.42 85.09 180)
 		(unit 1)
@@ -7611,7 +7559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103976cb-934a-4f0e-b34d-5b3c039b3eca")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 60.96 83.1785 0)
 			(effects
 				(font
@@ -7629,7 +7577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -7665,76 +7613,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 243.84 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10af4ba7-d698-4766-beb2-b73cbf4b23a0")
-		(property "Reference" "R?"
-			(at 245.872 95.5041 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 245.872 97.536 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "633e423a-b83b-4989-9004-004816f184a4")
-		)
-		(pin "2"
-			(uuid "680a3208-b378-4cf2-b50a-51ddf6d69345")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7751,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13201aef-280e-4f6a-b75a-3e053c5d177a")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 269.24 102.87 0)
 			(effects
 				(font
@@ -7818,7 +7697,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15aa4a41-7191-4542-b537-7c70e4ce7690")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 116.84 23.114 0)
 			(effects
 				(font
@@ -7852,7 +7731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 24.13 0)
 			(effects
 				(font
@@ -7888,7 +7767,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bcd4821-3b8a-45a0-8182-47bb2f8cf77d")
+		(property "Reference" "TP17"
+			(at 267.462 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.2871 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "254c5918-82ba-44eb-a725-3111f8e011f0")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -7904,7 +7850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf7336b-b02c-4c0b-b2be-7e070b2e0a83")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -7920,7 +7866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP63203WU-7_DIO"
+		(property "Footprint" "AP63203WU_7:AP63203WU-7_DIO"
 			(at 64.77 196.85 0)
 			(effects
 				(font
@@ -7970,7 +7916,7 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7985,7 +7931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e689e2f-2a34-4d6a-aff6-4d2e7756a4ef")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 241.554 123.444 0)
 			(effects
 				(font
@@ -8046,106 +7992,42 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 67.31 90)
+		(lib_id "Connector:TestPoint")
+		(at 259.08 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23791473-2987-4a8e-a98a-277767ae708b")
-		(property "Reference" "#PWR?"
-			(at 163.83 67.31 0)
+		(uuid "22292b39-d890-4774-ac1b-556c591b3713")
+		(property "Reference" "TP11"
+			(at 263.652 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 161.29 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18e66f29-294b-4677-ac91-a8ce5e345943")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bcbe126-50bd-4154-b03a-8558bf6fe994")
-		(property "Reference" "R?"
-			(at 144.018 67.31 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 153.67 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 148.59 68.58 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 68.58 0)
+			(at 259.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,25 +8044,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 148.59 68.58 0)
+		(property "Description" "test point"
+			(at 259.08 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "83df6c1c-d48d-49dc-bc2d-2e70e09d0bca")
 		)
 		(pin "1"
-			(uuid "85c23555-5d75-4941-a7e1-e25728940667")
+			(uuid "f73418ee-b0c0-40ff-9174-6066d107a4c4")
 		)
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -8196,7 +8075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c480bc0-14d4-49e8-bfa5-98bc69af1770")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 36.83 68.58 0)
 			(effects
 				(font
@@ -8263,7 +8142,7 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8278,7 +8157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d817d75-6685-4011-af94-73d35019753e")
-		(property "Reference" "C3"
+		(property "Reference" "C15"
 			(at 39.37 182.2512 0)
 			(effects
 				(font
@@ -8296,7 +8175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.91 184.15 0)
 			(effects
 				(font
@@ -8332,7 +8211,7 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C3")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8347,7 +8226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f1f1d2f-d387-41fe-929e-a93c3bffbaf7")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 241.554 120.904 0)
 			(effects
 				(font
@@ -8408,7 +8287,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8424,7 +8303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "301479f3-00a4-432d-a13c-6cf7d00e5ff8")
-		(property "Reference" "SW?"
+		(property "Reference" "SW3"
 			(at 45.72 139.7 0)
 			(effects
 				(font
@@ -8491,7 +8370,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "SW?")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8507,7 +8386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30378b0c-5d7a-463f-b9b2-37649cd12aaf")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 40.64 93.98 0)
 			(effects
 				(font
@@ -8557,76 +8436,7 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 30.48 179.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3052fd0d-fe2b-4cd7-8fad-8f8394d6527d")
-		(property "Reference" "D5"
-			(at 31.75 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200V,20A"
-			(at 35.052 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 30.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "846f61d2-98cb-4d89-b02a-b66109c6af16")
-		)
-		(pin "2"
-			(uuid "8ce28423-41c7-4a41-8c3d-1be82dacb6cb")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D5")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8642,7 +8452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33709425-4cbf-46bc-b2d1-11f438dd5a33")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 252.73 135.89 0)
 			(effects
 				(font
@@ -8692,7 +8502,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3864519e-70db-478a-acd8-09ce7d947409")
+		(property "Reference" "TP18"
+			(at 267.462 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.2871 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 262.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2641da-e71a-4c76-840c-976b079abe21")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -8708,7 +8585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3985cc3c-b67a-4686-b532-f31993d1ff05")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 25.4 96.52 0)
 			(effects
 				(font
@@ -8758,7 +8635,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8774,7 +8651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b636f04-97fc-4c10-ba27-dfc31da556c9")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 229.108 115.824 90)
 			(effects
 				(font
@@ -8826,7 +8703,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8842,7 +8719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1ad3cf-8a05-4ec6-b1ac-953069c39f07")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 156.718 75.184 90)
 			(effects
 				(font
@@ -8894,7 +8771,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8910,7 +8787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3da786f2-df5e-4c8b-93a8-ec88f019ed40")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 127 23.114 0)
 			(effects
 				(font
@@ -8928,7 +8805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 24.13 0)
 			(effects
 				(font
@@ -8964,7 +8841,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f600e46-85d2-4c13-bb9f-03da3530bc27")
+		(property "Reference" "TP10"
+			(at 263.652 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dce7ae5c-8b41-4b5a-97f0-3f56211c3e74")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -8980,7 +8924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "483c0b49-7dd3-4622-9d14-5dc69d83414d")
-		(property "Reference" "SW?"
+		(property "Reference" "SW2"
 			(at 45.72 109.22 0)
 			(effects
 				(font
@@ -9047,7 +8991,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "SW?")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49fffe63-29a0-4b99-9909-bc697fd5cde4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR025"
 			(at 64.77 195.58 0)
 			(effects
 				(font
@@ -9113,7 +9057,141 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR05")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "4a871859-32ff-4416-89b6-fe1b1a29b7a1")
+		(property "Reference" "TP14"
+			(at 263.652 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e35b998-4357-4782-bb58-04badb8ca13e")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b22aab9-6024-4b16-be35-c86e1f9a1f06")
+		(property "Reference" "TP1"
+			(at 263.652 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21414ef4-12c9-4b1e-8b52-c64ebaf0cead")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9129,7 +9207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ede4cf-269f-4796-ba42-f5b0fda42850")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR018"
 			(at 201.93 156.21 0)
 			(effects
 				(font
@@ -9179,7 +9257,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9194,7 +9272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51e1a568-a91e-4ba7-a477-ea7cfc8f7f35")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 241.554 125.984 0)
 			(effects
 				(font
@@ -9255,7 +9333,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D?")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "534e7e83-ecdb-4f8a-ab4d-887b3f2ca073")
+		(property "Reference" "TP5"
+			(at 263.652 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeeae9d8-533b-47a1-baf8-8f8f38c0d454")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "552a44e1-552b-4a41-af41-2148cd21dca1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR024"
 			(at 41.91 195.58 0)
 			(effects
 				(font
@@ -9321,7 +9466,7 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR08")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9337,7 +9482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56dcfd2a-d50e-4582-a916-7aabeeeeae05")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 168.91 23.114 0)
 			(effects
 				(font
@@ -9355,7 +9500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 24.13 0)
 			(effects
 				(font
@@ -9391,7 +9536,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9407,7 +9552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "589a3d41-d5a4-4f1b-805b-d62fa8fa67ea")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 106.68 194.31 0)
 			(effects
 				(font
@@ -9457,7 +9602,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9465,7 +9610,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 38.1 171.45 0)
+		(at 38.1 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9473,8 +9618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b391026-dc81-4b50-a004-89745ee47dba")
-		(property "Reference" "#PWR06"
-			(at 38.1 175.26 0)
+		(property "Reference" "#PWR020"
+			(at 41.91 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,7 +9628,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 40.64 170.1799 0)
+			(at 34.29 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 171.45 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 171.45 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 38.1 171.45 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9669,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR06")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cf8545b-c2b7-4516-b487-f1190ec4efeb")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 156.718 72.644 90)
 			(effects
 				(font
@@ -9592,7 +9737,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9608,7 +9753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5de26ea0-7324-40a5-b8bb-508200009dba")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 27.94 85.7185 0)
 			(effects
 				(font
@@ -9626,7 +9771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 25.4 87.63 0)
 			(effects
 				(font
@@ -9662,7 +9807,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9678,7 +9823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ded23d0-9a54-4e69-82ef-a41abd1cb8ec")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 229.108 120.904 90)
 			(effects
 				(font
@@ -9730,40 +9875,42 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:GT-USB-7010AN")
-		(at 127 69.85 0)
+		(lib_id "Connector:TestPoint")
+		(at 259.08 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6baf011f-2850-4791-a553-d833231d47db")
-		(property "Reference" "U1"
-			(at 127 52.07 0)
+		(uuid "6c795a52-cfcc-4093-ba8e-3984c38bf889")
+		(property "Reference" "TP19"
+			(at 263.652 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GT-USB-7010AN"
-			(at 127 55.88 0)
+		(property "Value" "TestPoint"
+			(at 260.4771 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:USB-SMD_GT-USB-7010AN"
-			(at 127 86.36 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,8 +9918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 69.85 0)
+		(property "Datasheet" "~"
+			(at 259.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,8 +9927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 69.85 0)
+		(property "Description" "test point"
+			(at 259.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,67 +9936,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C963370"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B1A12"
-			(uuid "aa436a15-b38e-4b31-82fe-b6028da0e512")
-		)
-		(pin "A8"
-			(uuid "d988f99f-87f3-4c70-860b-c9e0a6c94806")
-		)
-		(pin "A1B12"
-			(uuid "e8dd6c0c-93c6-4ef2-a407-fbc27d162098")
-		)
-		(pin "15"
-			(uuid "8fb6a563-b8ee-4433-accc-ded6571730b1")
-		)
-		(pin "B4A9"
-			(uuid "fd6a52d2-d914-4e50-9b1f-99523086fa5e")
-		)
-		(pin "A6"
-			(uuid "515d36e2-c326-47c3-8f62-70e5ca3fc983")
-		)
-		(pin "A4B9"
-			(uuid "f08d70db-3f3c-4c6c-98c0-711262796c5c")
-		)
-		(pin "A5"
-			(uuid "d1002d30-a2ee-417f-80c7-ab744cd11af1")
-		)
-		(pin "B5"
-			(uuid "da378a6c-fc60-4c0f-b42a-bf982c6a8046")
-		)
-		(pin "B8"
-			(uuid "0f2d9cdd-d6e4-4641-8e04-cb262e2c512c")
-		)
-		(pin "B6"
-			(uuid "f6e3bc91-5cb4-4e3b-ba62-aa34ebe32327")
-		)
-		(pin "B7"
-			(uuid "192c6e27-bab2-453d-af9e-3c963133323e")
-		)
-		(pin "14"
-			(uuid "dd01bd3d-bf9d-4911-8b9a-c6fc4a83ff43")
-		)
-		(pin "13"
-			(uuid "16e928a5-fdc1-4f6b-a968-a490fd6a89cc")
-		)
-		(pin "16"
-			(uuid "d5ddecfc-54b3-4ac2-9be2-f8986a29d4cb")
-		)
-		(pin "A7"
-			(uuid "c938f653-fe9b-4b2b-aa78-126142fafe99")
+		(pin "1"
+			(uuid "8438d4af-499e-4b34-9a21-f672e46e7f3e")
 		)
 		(instances
-			(project ""
+			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "U1")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -9865,7 +9958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cda10c1-4cea-4619-a8c0-a6bb5cf82ab8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -9915,7 +10008,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9931,7 +10024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbe37f1-561d-4c52-8ffe-af808ff97e6c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 58.42 93.98 0)
 			(effects
 				(font
@@ -9981,7 +10074,141 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "729e5a5a-e1df-4183-9780-d01ac0570414")
+		(property "Reference" "TP9"
+			(at 263.652 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c9a247-0d47-4a30-9620-169f88f54e19")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "7b6bd01c-1c29-4262-a05f-67e201f6bfdb")
+		(property "Reference" "TP13"
+			(at 263.652 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a401fab1-a3e1-4054-ac82-b8aff9c3e611")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -9997,7 +10224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c929b06-d374-48cb-8447-b49fe1a6f7a5")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 229.108 125.984 90)
 			(effects
 				(font
@@ -10049,7 +10276,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ff6df8c-e15b-4367-9fde-3e1c34b72bcc")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 229.108 128.524 90)
 			(effects
 				(font
@@ -10117,7 +10344,141 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80815792-7837-4f81-bb88-4cb1e6abebc9")
+		(property "Reference" "TP22"
+			(at 263.652 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05684320-3218-4160-a45e-34dd34d7f163")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8553780a-c61d-4e3f-8d68-bfc132f25563")
+		(property "Reference" "TP23"
+			(at 263.652 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d0d62c0-3e1f-48b8-8797-6569e05dd3cb")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -10132,7 +10493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "860882e2-2eff-493d-ae9d-0cad827c9a7c")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 27.178 149.86 90)
 			(effects
 				(font
@@ -10184,7 +10545,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c55beea-a91a-47de-ae8a-f938d61cf43a")
+		(property "Reference" "TP6"
+			(at 263.652 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91b52fb-9301-4acd-bc12-d8ef1f1f5b9d")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10200,7 +10628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90cbfd7e-02dd-40d1-844c-41563e2475e0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 22.86 162.56 0)
 			(effects
 				(font
@@ -10250,7 +10678,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10267,7 +10695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9163e3a9-496f-4c28-9f22-3a885e20daa1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 276.86 124.46 0)
 			(effects
 				(font
@@ -10317,7 +10745,141 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "924f2bff-8d4e-425a-ab9d-fb53d22740cb")
+		(property "Reference" "TP16"
+			(at 263.652 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019a7dcc-1342-4b85-9de4-080bc813f142")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "92b6a89f-0171-457e-98fd-a9aaf7e9900f")
+		(property "Reference" "TP12"
+			(at 263.652 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70aaebfc-11df-4f3e-8aad-4886df9e7437")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98be7411-71fa-4393-90e1-39e19229992b")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 224.79 23.114 0)
 			(effects
 				(font
@@ -10351,7 +10913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.33 24.13 0)
 			(effects
 				(font
@@ -10387,7 +10949,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10462,72 +11024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a926aaf-8e9f-4154-8f8e-1481c96490cd")
-		(property "Reference" "#PWR?"
-			(at 127 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b28c652-b0c2-4df6-b22c-974488be577e")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 245.11 119.38 180)
 		(unit 1)
@@ -10536,7 +11032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ec53e67-7677-46af-8fb0-25dc49f1e6e7")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 241.554 118.364 0)
 			(effects
 				(font
@@ -10597,7 +11093,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10613,7 +11109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04e6081-dff5-4040-b770-56d00152e1b2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 22.86 34.29 0)
 			(effects
 				(font
@@ -10663,75 +11159,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 248.92 91.44 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3078e99-70bf-4ee0-a1d8-cdc3bd396512")
-		(property "Reference" "R?"
-			(at 248.92 87.122 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 248.92 89.154 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 248.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 248.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5125170f-0007-4617-85c6-ef0a5de2c77b")
-		)
-		(pin "1"
-			(uuid "9700bd00-44fb-4432-84e0-a022bba142c2")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10747,7 +11175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a390f2bc-07c5-422a-bd93-232d62fbd4bc")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 180.34 23.114 0)
 			(effects
 				(font
@@ -10765,7 +11193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 24.13 0)
 			(effects
 				(font
@@ -10801,7 +11229,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10817,7 +11245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6478868-4817-47a2-a376-89a0db312e78")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 109.22 33.02 0)
 			(effects
 				(font
@@ -10867,7 +11295,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10941,72 +11369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.84 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abbc4809-b1c0-4217-a6f2-8a807629adcd")
-		(property "Reference" "#PWR?"
-			(at 243.84 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c704621-07bb-48b2-91f1-5c9690b8a63b")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 106.68 182.88 0)
 		(unit 1)
@@ -11016,7 +11378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12f59d6-cc79-4351-b820-0d3655e1c64d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 106.68 186.69 0)
 			(effects
 				(font
@@ -11066,7 +11428,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11082,7 +11444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b532d989-609d-49e7-8621-a65a06b17cc2")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 229.108 123.444 90)
 			(effects
 				(font
@@ -11134,7 +11496,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b53f5de3-727c-4742-8a67-2dbf699bebcc")
+		(property "Reference" "TP3"
+			(at 263.652 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "714d1ae5-9557-4a1b-a392-2c525b58f62f")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11150,7 +11579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b62b1a95-648f-47a2-a254-b02028d1e8bb")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 214.63 23.114 0)
 			(effects
 				(font
@@ -11168,7 +11597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 24.13 0)
 			(effects
 				(font
@@ -11204,7 +11633,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11220,7 +11649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b744a8c5-7cbc-4243-9250-1c3ccee70568")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 176.53 148.59 0)
 			(effects
 				(font
@@ -11270,7 +11699,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11285,7 +11714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b983a068-a4bc-4afe-90da-3f4c4e21795e")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 241.554 128.524 0)
 			(effects
 				(font
@@ -11346,7 +11775,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11363,7 +11792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd3d160f-3dd1-4c93-8750-f1efe8bf0ade")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 38.1 34.9249 0)
 			(effects
 				(font
@@ -11435,7 +11864,74 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "U?")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb16a29-3fc0-4907-b97d-8afb621b4df3")
+		(property "Reference" "TP7"
+			(at 263.652 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "794ef399-5165-4861-8e9b-b64c3d176bef")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11451,7 +11947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde4a69d-2296-4d7f-81b0-8779cf6ade49")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR015"
 			(at 22.86 132.08 0)
 			(effects
 				(font
@@ -11501,7 +11997,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11517,7 +12013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c16ad6ef-6a29-402f-8bba-fef50f20bde2")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 137.16 23.114 0)
 			(effects
 				(font
@@ -11535,7 +12031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 24.13 0)
 			(effects
 				(font
@@ -11571,7 +12067,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11587,7 +12083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c204c44e-e8cb-41a5-b12c-2044e350f0b8")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 64.77 71.12 90)
 			(effects
 				(font
@@ -11639,7 +12135,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11655,7 +12151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2563052-8610-48e3-916f-cd3e52335005")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 191.77 23.114 0)
 			(effects
 				(font
@@ -11673,7 +12169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.31 24.13 0)
 			(effects
 				(font
@@ -11709,23 +12205,23 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 38.1 173.99 90)
+		(lib_id "Connector:TestPoint")
+		(at 259.08 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c48cba9f-67f8-40bc-8a34-a1b727decc5c")
-		(property "Reference" "D4"
-			(at 42.418 173.99 90)
+		(uuid "c711adf4-0fb8-442c-8839-42aa6009ff0f")
+		(property "Reference" "TP20"
+			(at 263.652 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,8 +12229,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200V,20A"
-			(at 35.56 172.466 90)
+		(property "Value" "TestPoint"
+			(at 260.4771 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11743,8 +12239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.1 173.99 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +12249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 173.99 90)
+			(at 259.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,8 +12257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 38.1 173.99 0)
+		(property "Description" "test point"
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11771,15 +12267,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "167a4c5d-0e19-4cdf-99b1-7d4672340632")
-		)
-		(pin "2"
-			(uuid "0ea7f8eb-8466-4ab5-9a32-525b5b3a1968")
+			(uuid "e1a5042b-3306-434f-8734-fc47ae62ba4e")
 		)
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D4")
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7de9486-d6f9-4563-a129-ae25b09dea90")
+		(property "Reference" "TP2"
+			(at 263.652 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bb68581-b09e-44c3-8170-97778327bd61")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11794,7 +12354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ab7ecf-97fa-422c-9501-4058f1f48397")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 27.178 119.38 90)
 			(effects
 				(font
@@ -11846,74 +12406,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d48a7128-357c-4684-a050-1ad3e85fc365")
-		(property "Reference" "R?"
-			(at 144.018 64.77 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 153.67 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 148.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 148.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "513968d8-5e8a-42c6-a118-96cb6b1426db")
-		)
-		(pin "1"
-			(uuid "05a3a259-a54d-47d3-9ea6-41e0db09d516")
-		)
-		(instances
-			(project "raspberry-pi-power-hub"
-				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11929,7 +12422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7413953-c278-4fca-81e1-6d5aaffbf742")
-		(property "Reference" "C1"
+		(property "Reference" "C16"
 			(at 109.22 184.404 0)
 			(effects
 				(font
@@ -11947,7 +12440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 185.42 0)
 			(effects
 				(font
@@ -11983,7 +12476,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C1")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11999,7 +12492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da1702f4-dbf3-4dfb-bf16-b02d43cc30d1")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 20.32 22.86 0)
 			(effects
 				(font
@@ -12017,7 +12510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -12053,7 +12546,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12069,7 +12562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da5a5305-abeb-4cae-bcd8-417a49bfe437")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -12119,7 +12612,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12135,7 +12628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc828e23-e73e-4db3-b1a1-661825d34201")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 204.545 148.59 0)
 			(effects
 				(font
@@ -12354,7 +12847,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12370,7 +12863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddcad025-89eb-4112-b85e-a4ae5ea47e1b")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 203.2 23.114 0)
 			(effects
 				(font
@@ -12388,7 +12881,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 205.74 24.13 0)
 			(effects
 				(font
@@ -12424,7 +12917,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12440,7 +12933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2185500-ca93-403c-a21d-a6ecc900246e")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 229.108 118.364 90)
 			(effects
 				(font
@@ -12492,7 +12985,208 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "R?")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "e266840f-9a7f-4152-a295-44b97c007013")
+		(property "Reference" "TP15"
+			(at 263.652 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a0ba730-3ea6-4fac-9ccb-6ba0886e8e1e")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e49c734b-f3a9-44d6-b291-6dcfda1a517b")
+		(property "Reference" "TP4"
+			(at 263.652 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fa1555f-87a9-4810-8040-836042ead729")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5e7ce5f-9544-4090-ad62-707f59cf4fe5")
+		(property "Reference" "TP21"
+			(at 263.652 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.4771 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b552916-d0df-47af-bcc6-9579015b53e2")
+		)
+		(instances
+			(project "raspberry-pi-power-hub"
+				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -12508,7 +13202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e67b52ae-391f-4215-a43c-fd64cc4a0f0b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR021"
 			(at 96.52 185.42 0)
 			(effects
 				(font
@@ -12558,7 +13252,7 @@
 		(instances
 			(project ""
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR04")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12573,7 +13267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e94a1fb1-fbca-4393-a227-d565b484d0d1")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 241.554 115.824 0)
 			(effects
 				(font
@@ -12634,7 +13328,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12650,7 +13344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e99a7ccf-2633-4042-80b4-857accea354d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -12700,7 +13394,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12716,7 +13410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb80f328-1d46-49e0-bc40-e471c89503f8")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 157.48 23.114 0)
 			(effects
 				(font
@@ -12734,7 +13428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 24.13 0)
 			(effects
 				(font
@@ -12770,7 +13464,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12785,7 +13479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec1181ca-1476-4f2c-a900-13d0c0b5ef49")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 77.47 173.736 90)
 			(effects
 				(font
@@ -12793,7 +13487,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 77.47 176.276 90)
 			(effects
 				(font
@@ -12837,7 +13531,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12853,7 +13547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f483c857-5bab-4cdf-a2d8-aed1456e6b24")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 160.02 25.4 0)
 			(effects
 				(font
@@ -12903,7 +13597,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12919,7 +13613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89d9555-c5fc-466b-87bc-3b31fe18302b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 217.17 62.23 0)
 			(effects
 				(font
@@ -12969,7 +13663,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12985,7 +13679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f93e44ac-e7a7-4b37-a45f-7884c2cf3f52")
-		(property "Reference" "C2"
+		(property "Reference" "C17"
 			(at 119.38 184.404 0)
 			(effects
 				(font
@@ -13003,7 +13697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 185.42 0)
 			(effects
 				(font
@@ -13039,7 +13733,7 @@
 		(instances
 			(project "raspberry-pi-power-hub"
 				(path "/2a0acc6a-7dcb-4f06-b9d0-ff1420b61fe9/c01414cb-6643-43a4-b4a5-f11e07d2900d"
-					(reference "C2")
+					(reference "C17")
 					(unit 1)
 				)
 			)

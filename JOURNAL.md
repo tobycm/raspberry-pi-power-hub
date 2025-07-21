@@ -76,3 +76,12 @@ added a fault indicator LED :D
 ![current request setup](assets/current_req.png)
 
 to request at least 1A of current :D
+
+## Jul 20, 2025 | 12:00 - 18:00 | laying out the board
+
+i think i will make smaller cypd3175 modules, so this board will only have the cypd3177 and rp2040, and the buck converter for 3.3V
+
+![front 3d](assets/Screenshot%20from%202025-07-20%2018-31-36.png)
+![back 3d](assets/Screenshot%20from%202025-07-20%2018-32-11.png)
+
+FINALLY DONE WOOHOO! time to add a bunch of art and make it look nice :D
