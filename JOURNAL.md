@@ -86,7 +86,7 @@ i think i will make smaller cypd3175 modules, so this board will only have the c
 
 FINALLY DONE WOOHOO! time to add a bunch of art and make it look nice :D
 
-## Jul 26, 2025 | 13:20 -  | im cooked
+## Jul 26, 2025 | 13:20 - 15:00 | im cooked
 
 i just realized that my via size is too small, so i have to fix all of that 😭😭😭😭😭😭
 
