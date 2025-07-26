@@ -85,3 +85,21 @@ i think i will make smaller cypd3175 modules, so this board will only have the c
 ![back 3d](assets/Screenshot%20from%202025-07-20%2018-32-11.png)
 
 FINALLY DONE WOOHOO! time to add a bunch of art and make it look nice :D
+
+## Jul 26, 2025 | 13:20 -  | im cooked
+
+i just realized that my via size is too small, so i have to fix all of that 😭😭😭😭😭😭
+
+![drc](assets/drc.png)
+
+oof
+
+also i forgot that this is meant to be kinda like a breakout, and i forgot to breakout the power outputs 💀💀
+
+![good drc](assets/good_drc.png)
+
+lets gooooooooo
+
+![pinouts](assets/pinouts.png)
+
+pinouts added too! done!
