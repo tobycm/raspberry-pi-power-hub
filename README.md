@@ -42,4 +42,6 @@ one port (usb c) to rule them all!!! this board is designed to take a single USB
 | 27ohm | 2 | [C138021](https://lcsc.com/product-detail/C138021.html) |
 | Pin Headers | 1 | [C7501275](https://lcsc.com/product-detail/C7501275.html) |
 | | |
-| Total cost | 33 USD | |
+| Total cost | 74.24 USD LCSC + 13.98 USD JLCPCB = 88.22 USD | |
+| Soldering paste (cheaper than PCBA) | 1 | https://amazon.ca/dp/B0BLSJQPR6 |
+| Total cost with soldering paste | 88.22 USD + 19.59 CAD = 102.43 USD | |
