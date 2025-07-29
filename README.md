@@ -13,6 +13,7 @@ one port (usb c) to rule them all!!! this board is designed to take a single USB
 | Part Name | Quantity | Link |
 | :--- | :---: | :--- |
 | PCB | 1 | [JLCPCB](https://jlcpcb.com) |
+| Stencil | 1 | [JLCPCB](https://jlcpcb.com) |
 | RP2040 | 1 | [C2040](https://lcsc.com/product-detail/C2040.html) |
 | CYPD3177-24LQ | 1 | [C5904158](https://lcsc.com/product-detail/C5904158.html) |
 | W25Q32JVSS | 1 | [C82344](https://lcsc.com/product-detail/C82344.html) |
@@ -41,4 +42,4 @@ one port (usb c) to rule them all!!! this board is designed to take a single USB
 | 27ohm | 2 | [C138021](https://lcsc.com/product-detail/C138021.html) |
 | Pin Headers | 1 | [C7501275](https://lcsc.com/product-detail/C7501275.html) |
 | | |
-| Total cost | 30 USD | |
+| Total cost | 33 USD | |
